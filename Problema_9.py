@@ -1,0 +1,10 @@
+a, b, c = input("Dati 3 numere, separate prin spatiu (1x Space) \t").split()
+a = int(a)
+b = int(b)
+c = int(c)
+sum1 = a + b
+sum2 = a + c
+sum3 = b + c
+print(a, " + ", b, " = ", sum1)
+print(a, " + ", c, " = ", sum2)
+print(b, " + ", c, " = ", sum3)
